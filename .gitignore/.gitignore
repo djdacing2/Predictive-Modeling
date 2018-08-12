@@ -1,0 +1,7 @@
+import pandas as pd
+#from sklearn.linear_model import LinearRegresssion
+import matplotlib.pylab as plt
+df=pd.read_csv("C:/Users/djdac/winequality-red.csv",sep=';')
+df['quality']
+plt.scatter(df['quality'],df['alcohol'])
+plt.show()
